@@ -5,7 +5,8 @@ with Transformer VAE"**](https://arxiv.org/abs/2104.05670), [ICCV 2021](http://i
 
 Please visit our [**webpage**](https://imagine.enpc.fr/~petrovim/actor/) for more details.
 
-![teaser](https://imagine.enpc.fr/~petrovim/actor/images/bigteaser_white.png)
+![teaser_light](visuals/bigteaser_white.png#gh-light-mode-only)![teaser_dark](visuals/bigteaser_white.png#gh-dark-mode-only)
+
 
 #### Bibtex
 If you find this code useful in your research, please cite:
@@ -131,7 +132,7 @@ Each line corresponds to an action.
 The first column on the right represents a movement of the dataset, and the second column represents the reconstruction of the movement (via encoding/decoding). All other columns on the left are generations with random noise.
 
 ##### Example
-![ntugrid.gif](visuals/ntugrid.gif)
+![ntugrid.gif](visuals/ntugrid.gif#gh-light-mode-only)![ntugrid.gif](visuals/ntugrid_neg.gif#gh-dark-mode-only)
 
 
 ### Generating and rendering SMPL meshes
@@ -160,8 +161,7 @@ It will render the sequences into this folder ``PATH/TO/generation/``.
 
 | Pickup                                                   | Raising arms                                                   | High knee running                                                   | Bending torso                                             | Knee raising |
 |:--------------------------------------------------------:|:--------------------------------------------------------------:|:-------------------------------------------------------------------:|-----------------------------------------------------------|--------------|
-| <img src="visuals/pickup.gif" height="270" /> | <img src="visuals/raising_arms.gif" height="270" /> | <img src="visuals/high_knee_running.gif" height="270" /> | <img src="visuals/bending.gif" height="270" /> | <img src="visuals/knee_raising.gif" height="270" />             |
-
+| <img src="visuals/pickup.gif#gh-light-mode-only" height="270" /> <img src="visuals/pickup_neg.gif#gh-dark-mode-only" height="270" /> | <img src="visuals/raising_arms.gif#gh-light-mode-only" height="270" /> <img src="visuals/raising_arms_neg.gif#gh-dark-mode-only" height="270" /> | <img src="visuals/high_knee_running.gif#gh-light-mode-only" height="270" /> <img src="visuals/high_knee_running_neg.gif#gh-dark-mode-only" height="270" /> | <img src="visuals/bending.gif#gh-light-mode-only" height="270" /> <img src="visuals/bending_neg.gif#gh-dark-mode-only" height="270" /> | <img src="visuals/knee_raising.gif#gh-light-mode-only" height="270" /> <img src="visuals/knee_raising_neg.gif#gh-dark-mode-only" height="270" />             |
 
 
 
