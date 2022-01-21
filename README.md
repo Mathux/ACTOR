@@ -5,7 +5,7 @@ with Transformer VAE"**](https://arxiv.org/abs/2104.05670), [ICCV 2021](http://i
 
 Please visit our [**webpage**](https://imagine.enpc.fr/~petrovim/actor/) for more details.
 
-![teaser_light](visuals/bigteaser_white.png#gh-light-mode-only)![teaser_dark](visuals/bigteaser_white.png#gh-dark-mode-only)
+![teaser_light](visuals/bigteaser_white.png#gh-light-mode-only)![teaser_dark](visuals/bigteaser_white_neg.png#gh-dark-mode-only)
 
 
 #### Bibtex
